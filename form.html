@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel Form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name"><br>
+            <!--name is used for that if name of all are same only one block can be click if name is diff than all block can be clicked-->
+            <!--id is used for that we can allow radio button by clicking on text-->
+            <label for="sectionida">
+                <input type="radio" value="sectiona" name="section" id="sectionida">sectionA
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="sectionb" name="section" id="sectionidb">sectionB
+            </label>
+            <label for="Sectionidc">
+                <input type="radio" value="sectionc" name="section" id="Sectionidc">sectionC
+            </label>
+            <input type="checkbox" name="canteen" id="sectioncant"class="red">food<!--now we can use class and change color in css-->
+            <label for="canteen">want canteen</label><br>
+            <input type="color" name="section" id="sectionid">color<br>
+            <input type="date" name="date" id="date">Date<br>
+            <input type="time" name="time" id="time"><br>
+            <textarea name="explain" id="Explain" cols="30" rows="10" placeholder="Explain why u want to join"></textarea><br>
+            <select name="car" id="select">
+                <option value="no car">Select ur car</option> 
+                <option value="omni">omni</option>
+                <option value="mustang">mustang</option>
+                <option value="ferari">ferari</option>
+            </select>
+
+        </form>
+    </div>
+</body>
+
+</html>
